@@ -1,0 +1,39 @@
+#m_title{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.box1 h2{
+    float: left;
+}
+
+.box1 button{
+    float: right;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+h6{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+form{
+    margin-top: 30px;
+    padding: 0px 100px;
+}
+
+h4{
+    text-align: center;
+    color: rgb(132, 132, 202);
+}
+
+h1{
+    text-align: center;
+}
