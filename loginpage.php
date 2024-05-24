@@ -1,8 +1,7 @@
-<?php include('includes/header.php'); ?>
-<?php include('includes/dbcon.php'); ?>
+<?php include('includes/header.php');?>
+<?php include('includes/db_connection.php');?>
 
-
-	<div class="section">
+<div class="section">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12 text-center align-self-center py-5">
@@ -38,17 +37,10 @@
 	    </div>
 	</div>
 
-
-
-
-<?php
+    <?php
         if(isset($_GET['message'])){
             echo '<div class="bg-dark p-4 w-50 rounded mx-auto text-center">';
             echo "<h6>".$_GET['message']."</h6>";
             echo '</div>';
         }
-?>
-
-
-</body>
-</html>
+    ?>
