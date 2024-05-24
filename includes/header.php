@@ -11,4 +11,4 @@
   <body>
 
     <h1 id="m_title">EP Elementary School</h1>
-    <div class="container">
+    <div class="container"></div>
