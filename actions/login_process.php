@@ -1,9 +1,8 @@
-<?php include('../includes/dbcon.php'); ?>
+<?php include('../includes/db_connection.php');?>
 <?php session_start(); ?>
 
 
 <?php
-
     if(isset($_POST['login'])){
         $username = $_POST['uname'];
         $email = $_POST['email'];
@@ -22,10 +21,8 @@
             $_SESSION['uname'] = $username;
             header('location:../index.php');
         }else{
-            header('location:../loginpage.php?message=Sorry your username or email id is invalid');
+            header('location:../login_page.php?message=Sorry, your username or email is invalid');
         }
-
     }
 
-
- ?>
+?>
