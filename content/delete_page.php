@@ -1,25 +1,19 @@
-<?php include('../includes/dbcon.php'); ?>
+<?php include('../includes/db_connection.php');?>
 
 <?php
 
     if(isset($_GET['id'])){
         $id = $_GET['id'];
 
+        $query = "delete from `students` where `id` = '$id' ";
+        $result = mysqli_query($connection, $query);
 
-    $query = "delete from `students` where `id` = '$id' " ;
-
-    $result = mysqli_query($connection, $query);
-
-    if(!$result){
-        die("Query Failed".mysqli_error());
-    }else{
-        header('location:../index.php?delete_msg= You have deleted the record');
+        if(!$result){
+            die("Query failed".mysqli_error());
+        }else{
+            header('location:../index.php?delete_msg= You have deleted the student');
+        }
     }
-
-
-}
-
-
 
 
 
