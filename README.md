@@ -1,5 +1,5 @@
 # Basic CRUD with PHP
-The video is on my YT Channel !
+The video where I explain this is on my YT Channel !
 https://www.youtube.com/watch?v=OVJAI87ALao&t=916s
 
 ![1](preview/1.png)
